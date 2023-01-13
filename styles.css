@@ -34,12 +34,15 @@ background-color: tan;
   width: 100%;
   max-width: 348px;
   border-radius: 20px;
+  font-family: 'Merriweather Sans';
 
-  background-color: #CB92B1;
+  background-color: #302F3D;
 }
 
 .content-body .content-projetos {
   width: 100%;
+  border-radius: 20px;
+  font-family: 'Merriweather Sans';
   
 
   background-color: tomato;
