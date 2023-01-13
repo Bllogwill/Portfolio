@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0%;
+}
+
+
+:root {
+  --body-bg-color: #22212C;
+  --text-color: #837E9F;
+  --bg-cards: #302F3D;
+  --bg-techs: #CB92B1;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+
+}
+
+.content-body {
+width: 1440px;
+
+display: flex;
+padding: 40px;
+ 
+position: relative;
+color: #302F3D;
+background-color: tan;
+} 
+
+.content-body .content-perfil {
+  width: 100%;
+  max-width: 348px;
+  border-radius: 20px;
+
+  background-color: #CB92B1;
+}
+
+.content-body .content-projetos {
+  width: 100%;
+  
+
+  background-color: tomato;
+}
