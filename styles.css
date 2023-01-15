@@ -1,49 +1,119 @@
 * {
-  padding: 0;
-  margin: 0%;
+ padding: 0;
+ margin: 0%;
 }
 
 
 :root {
-  --body-bg-color: #22212C;
-  --text-color: #837E9F;
-  --bg-cards: #302F3D;
-  --bg-techs: #CB92B1;
+ --body-bg-color: #22212C;
+ --text-color: #837E9F;
+ --bg-cards: #302F3D;
+ --bg-techs:  #22212C;
 }
 body{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: flex-start;
+ background-color: #22212C;
 
 
 }
 
 .content-body {
-width: 1440px;
+ width: 1440px;
 
-display: flex;
-padding: 40px;
+ display: flex;
+ padding: 40px;
  
-position: relative;
-color: #302F3D;
-background-color: tan;
+ position: relative;
+ color: #302F3D;
+ background-color:  #22212C;
 } 
 
 .content-body .content-perfil {
-  width: 100%;
-  max-width: 348px;
-  border-radius: 20px;
-  font-family: 'Merriweather Sans';
+ width: 100%;
+ max-width: 348px;
+ gap: 30px;
 
-  background-color: #302F3D;
+ 
+ font-family: 'Merriweather Sans';
+
 }
 
 .content-body .content-projetos {
-  width: 100%;
-  border-radius: 20px;
-  font-family: 'Merriweather Sans';
+ width: 100%;
+ border-radius: 20px;
+ font-family: 'Merriweather Sans';
   
 
-  background-color: tomato;
+ background-color: tomato;
 }
+
+.content-body .content-perfil .perfil-1{
+ width: 100%;
+ padding: 32px 0px 50px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ background-color: #302F3D;
+ border-radius: 20px;
+ 
+
+  
+}
+
+.content-body .content-perfil .perfil-1 img{
+ width: 128px;
+ height: 128px;
+ margin-bottom: 30px;
+
+ border-radius: 64px;
+ 
+ border: 2px solid #00FF00;
+}
+
+.content-body .content-perfil .perfil-1  h2{   
+
+ font-weight: 700;
+ font-size: 23px;
+ line-height: 29px;
+ font-family: 'Merriweather Sans';
+
+ color: #837E9F;
+}
+
+.content-body .content-perfil .perfil-1 h1{  
+ 
+ 
+ 
+ font-size: 13px;
+ line-height: 16px;
+ font-family: 'Merriweather Sans';
+    
+ color: #837E9F;
+  
+}
+
+.content-body .content-perfil .icons-assets {
+ margin-top: 10px;
+ width: 24px;
+    
+ display: center;
+ justify-content: center;
+ align-items: center;
+ background-color: #00FF00;
+
+}
+.content-body .content-perfil .icons-assets h1{
+ font-family: 'Merriweather Sans';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 13px;
+ line-height: 16px;
+
+ color: #837E9F;
+
+}
+
